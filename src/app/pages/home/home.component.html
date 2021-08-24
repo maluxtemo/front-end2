@@ -1,0 +1,23 @@
+
+<div class="box">
+  <div class="select-dropdown" (click)="Displaylist()">
+    <select   >
+      <option value="{{option}}">{{option}}</option>
+    </select>
+
+  </div>
+  <div id="selectOption">
+    <input  type="text" placeholder="Search Countries" > <br>
+    <label for="all">
+      <input type="checkbox" id="all" (click)="all()" />{{Selected}} All</label>
+      <div  *ngFor="let client of CountryList">
+        <label (click)="check(client)" for="{{client}}">
+        <input type="checkbox" id="{{client}}" />{{client}}</label>
+      </div>
+     
+
+  </div>
+
+
+</div>
+

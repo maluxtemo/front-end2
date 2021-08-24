@@ -1,0 +1,42 @@
+.box{
+
+  width: 500px;
+  font-size: 18px;
+}
+.select-dropdown{
+
+  align-items: center;
+  justify-content: center;
+}
+
+select{
+
+  font-size: 18px;
+  width: 100%;
+
+  
+}
+label{
+
+  width: 100%;
+  display: block;
+  position: relative;
+
+}
+
+#selectOption
+{
+  display: none;
+  
+  border: 1px #dadada solid;
+  width: 100%;
+  margin-top: 1px;
+  padding: 1%;
+ 
+}
+
+
+
+ label:hover {
+  background-color: #1e90ff;
+}
